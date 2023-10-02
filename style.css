@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+.header{
+    width: 100%;
+    height: 120px;
+    margin-top: 0;
+   position: fixed;
+    background-color: #262636;
+    display: flex;
+    border: color(white);
+    border-style: groove;
+
+}
+.left-header
+{
+    width:600px;
+    height: 100%;
+    margin-top: 0;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.nav-logo
+{
+    
+    width: 300px;
+    height: 100%;
+    
+
+}
+.logo
+{
+    width:120px;
+    height: 100%;
+    background-size: cover;
+   background-image: url(logo.png) ;
+}
+.firstteam
+{
+    width: 500px;
+
+
+}
+.club
+{
+    width: 400px;
+    
+
+}
+.border
+{
+    border: 2px solid transparent;
+}
+.border :hover
+{
+    border: 1.5px solid white;
+}
+.middle-header{
+    float: left;
+    width:350px;
+    display: block;
+    height: 100%;
+    background-size: cover;
+    background-image: url(campnou.jpg);
+    margin-left: px;
+}
+.right-header{
+    margin-right: 0;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+
+
+.right-header div{
+    transition: transform 0.9 ease;
+}
+.right-header div:hover{
+    transform: scale(0.8);
+}
+
+.tickets{
+   
+    width: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    
+}
+.tickets a{
+    color: goldenrod;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+    font-weight: 400;
+}
+.shop 
+{
+  
+    width: 100px;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    
+    
+}
+.shop a{
+    color: goldenrod;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-style: normal;
+    font-weight: 400;
+    width: 50px;
+}
+.login{
+    width: 100px;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+.login a{
+    color: goldenrod;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-style: normal;
+    font-weight: 400;
+    width: 50px;
+}
+.image-center
+{
+    background-color: black;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,28,1) 35%, rgba(0,212,255,1) 100%);
+    border: 3px solid white; 
+
+    width: 100%;
+    height: 400px;
+    margin-top: 0px;
+    display: flex;
+    padding-top: 135px;
+    ;
+    
+}
+.img1
+{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    border-radius: 6px;
+    
+    padding-left: 6px;
+    border-top-left-radius: 6px;
+    display: block;
+    align-content: center;
+}
+.img2
+{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    border-radius: 6px;
+    display: block;
+}
+.img3
+{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    border-radius: 6px;
+    display: block;
+}
+.image-center div{
+    transition: transform 0.9 ease-in-out;
+    
+}
+.image-center div:hover{
+    transform: scale(1.1);
+}
+.img-exp{
+    
+    text-align: center;
+    z-index: 20;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+} 
+.partners{
+    width: 100%;
+    height:100px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,28,1) 35%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: center;
+}
+.manage{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 40px;
+    font-size: larger;
+    border-color: #fff ;
+}
+.nikelogo
+{
+    padding-left: 30px;
+    width: 70px;
+    height: 100%;
+    
+    
+    opacity: .6;
+}
+.spotifylogo
+{
+    margin-top: -4px;
+    padding-left: 30px;
+    width: 100px;
+    height: 100%;
+    opacity: .6;
+}
+
+.spotifylogo:hover{
+    transform: scale(1);
+    opacity: 1;
+}
+.nikelogo:hover{
+    transform: scale(1);
+    opacity: 1;
+}
+.middle{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    background-color: black;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,28,1) 35%, rgba(0,212,255,1) 100%);
+}
+.results{
+    width: 350px;
+    margin-top: 0;
+    margin-left: 15px;
+    height: 350px;
+    background-size: cover; 
+    background-image: url(results.jpg);
+    cursor: pointer;
+    transition: transform 1.0 ease;
+    
+}
+.results-text
+{
+    width: 350px;
+    padding-top: 50%;
+    text-align: center;
+    z-index: 50;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    
+}
+.results div{
+    transition: transform 0.9 ease-in-out;
+    
+}
+.results div:hover{
+    transform: scale(1.1);
+}
+.fullmatches
+{
+    margin-left: 2px;
+    width: 400px;
+    height: 350px;
+   background-image: url(poster1.jpg);
+   background-size: contain;
+    
+    
+    
+}
+.fullmatches img
+{
+    
+    
+   padding-left: 25px;
+   padding-top: 20%;
+    
+    
+    
+}
+.culers1
+{
+    margin-left: 2px;
+    width: 400px;
+    height: 350px;
+    background-image: url(poster2.jpg);
+    background-size: cover;
+    
+    
+    
+}
+.culers1 img{
+    padding-left: 25px;
+    padding-top: 20%;
+}
+.new-kit
+{
+    margin-left: 2px;
+    width: 400px;
+    height: 100%;
+    background-image: url(poster3.jpg);
+    background-size: contain;
+    
+    
+    
+}
+.new-kit img{
+    padding-left: 25px;
+    padding-top: 20%;
+}
+.middle img{
+    transition: transform 0.9 ease-in-out;
+    
+}
+.middle img:hover{
+    transform: scale(1.1);
+}
+.culers
+{
+    align-items: center;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    
+    background-image: url(culers.jpg);
+}
+.flogo{
+    width: 300px;
+    display: flex;
+    float: left;
+    height: 250px;
+    background-color: #262636;
+}
+.footer
+{
+    
+    width: auto;
+    height: 250px;
+    background-color: #262636;
+    
+    display: flex;
+    justify-content: left;
+
+}
+.gk{
+    width: 200px;
+    height: 100%;
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 100;
+}
+.gk p{
+    opacity: 0.6;
+}
+.forwards
+{
+    float: left;
+    width: 200px;
+    height: 100%;
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.forwards p{
+    opacity: 0.6;
+}
+.midfielders
+{
+    float: left;
+    width: 200px;
+    height: 100%;
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.midfielders p{
+    opacity: 0.6;
+}
+.defenders
+{
+    float: left;
+    width: 200px;
+    height: 100%;
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.defenders p{
+    opacity: 0.6;
+}
+.flogoimg{
+    width: 280px;
+    height: 100px;
+   margin-top: 150px;
+   margin-left: 10px;
+}
+.footer p{
+    transition: transform 0.9 ease-in-out;
+    
+}
+.footer p:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
